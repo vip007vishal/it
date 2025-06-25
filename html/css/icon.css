@@ -2137,7 +2137,7 @@ readers do not read off random characters that represent icons */
   content: "\f624";
 }
 
-.fa-tachometer-alt-average::before {
+.fa-tacter-alt-average::before {
   content: "\f624";
 }
 
@@ -4053,7 +4053,7 @@ readers do not read off random characters that represent icons */
   content: "\e1b0";
 }
 
-.fa-home-user::before {
+.fa--user::before {
   content: "\e1b0";
 }
 
@@ -4521,7 +4521,7 @@ readers do not read off random characters that represent icons */
   content: "\e3af";
 }
 
-.fa-home-lg::before {
+.fa--lg::before {
   content: "\e3af";
 }
 
@@ -4777,7 +4777,7 @@ readers do not read off random characters that represent icons */
   content: "\f629";
 }
 
-.fa-tachometer-average::before {
+.fa-tacter-average::before {
   content: "\f629";
 }
 
@@ -5829,15 +5829,15 @@ readers do not read off random characters that represent icons */
   content: "\f015";
 }
 
-.fa-home::before {
+.fa-::before {
   content: "\f015";
 }
 
-.fa-home-alt::before {
+.fa--alt::before {
   content: "\f015";
 }
 
-.fa-home-lg-alt::before {
+.fa--lg-alt::before {
   content: "\f015";
 }
 
@@ -6389,11 +6389,11 @@ readers do not read off random characters that represent icons */
   content: "\f625";
 }
 
-.fa-tachometer-alt::before {
+.fa-tacter-alt::before {
   content: "\f625";
 }
 
-.fa-tachometer-alt-fast::before {
+.fa-tacter-alt-fast::before {
   content: "\f625";
 }
 
@@ -7705,11 +7705,11 @@ readers do not read off random characters that represent icons */
   content: "\f62a";
 }
 
-.fa-tachometer::before {
+.fa-tacter::before {
   content: "\f62a";
 }
 
-.fa-tachometer-fast::before {
+.fa-tacter-fast::before {
   content: "\f62a";
 }
 
@@ -11227,7 +11227,7 @@ readers do not read off random characters that represent icons */
   content: "\e69a";
 }
 
-.ti-home:before {
+.ti-:before {
   content: "\e69b";
 }
 
@@ -15846,27 +15846,27 @@ readers do not read off random characters that represent icons */
   content: "\e9b7";
 }
 
-.line-icon-Home-2:before {
+.line-icon--2:before {
   content: "\e9b8";
 }
 
-.line-icon-Home-3:before {
+.line-icon--3:before {
   content: "\e9b9";
 }
 
-.line-icon-Home-4:before {
+.line-icon--4:before {
   content: "\e9ba";
 }
 
-.line-icon-Home-5:before {
+.line-icon--5:before {
   content: "\e9bb";
 }
 
-.line-icon-Home-Window:before {
+.line-icon--Window:before {
   content: "\e9bc";
 }
 
-.line-icon-Home:before {
+.line-icon-:before {
   content: "\e9bd";
 }
 
@@ -20784,7 +20784,7 @@ readers do not read off random characters that represent icons */
   content: "\e879";
 }
 
-.icon-feather-home:before {
+.icon-feather-:before {
   content: "\e87a";
 }
 
