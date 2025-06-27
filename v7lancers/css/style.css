@@ -7203,6 +7203,25 @@ header.sticky .navbar.disable-fixed {
   text-transform: uppercase;
   white-space: nowrap;
 }
+
+.navbar .navbar-nav .dropdown .mega_menu_inner .dropdown-menu{
+  display: none;  
+ 
+  margin: 0;
+  padding: 60px 0 65px;
+  border: 0;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+  background-color: white !important;
+  background-color: var(--white);
+  box-shadow: 0 45px 45px 0 rgba(0, 0, 0, 0.05);
+  -webkit-animation: hide-animation 0.5s;
+  animation: hide-animation 0.5s;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  z-index: 999;
+} 
 .navbar .navbar-nav .dropdown.open .dropdown-menu {
   display: block;
   -webkit-animation: show-animation 0.5s;
