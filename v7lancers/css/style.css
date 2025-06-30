@@ -8125,7 +8125,7 @@ nav input {
 
 
 nav.scrolled {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.909);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 nav.scrolled .drop-menu li a {
@@ -8137,6 +8137,7 @@ nav.scrolled .row .mega-links li a{
 nav.scrolled .nav-links li a {
     color: #2c3e50;
 }
+
 
 
 .title-offer{
