@@ -185,6 +185,7 @@ video {
 .row > * {
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 30px;
 }
 .row.g-0 {
   margin-right: 0;
