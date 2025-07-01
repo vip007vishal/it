@@ -177,18 +177,7 @@ video {
 .container-xxl {
   padding-right: 15px;
   padding-left: 15px;
-}/*
-.icon_square {
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
-    border: 1px solid rgba(127, 203, 17, .3);
-    background-color: rgba(127, 203, 17, .059);
-    text-align: center;
-    font-size: 30px;
-    line-height: 72px;
-    color: #7fcb11;
-}*/
+}
 .row {
   margin-right: -15px;
   margin-left: -15px;
@@ -196,7 +185,6 @@ video {
 .row > * {
   padding-right: 15px;
   padding-left: 15px;
-  padding-bottom: 30px;
 }
 .row.g-0 {
   margin-right: 0;
@@ -5276,9 +5264,6 @@ textarea:focus,
 .pb-30px {
   padding-bottom: 30px !important;
 }
-.pb-300px{
-  padding-bottom: 300px !important;
-}
 .pb-35px {
   padding-bottom: 35px !important;
 }
@@ -7801,10 +7786,19 @@ header.sticky .navbar.disable-fixed {
   transform: translateY(0);
   box-shadow: none;
 }
+.Eezyfoodclass{
+  width: 306px !important;
+  height: 402px !important;
+}
+.Eezystoreclass{
+  width: 306px !important;
+  height: 402px !important;
+}
+
 
 .v7-logo {
   position: relative;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 30px;
 }
 
@@ -7823,8 +7817,9 @@ header.sticky .navbar.disable-fixed {
 .default-logo {
   opacity: 1;
   z-index: 2;
-  width: 160px;
-  height: 160px !important;
+  width: 170px !important;
+  height: 60px !important;
+  /* margin-bottom: 15px !important; */
 }
 
 nav.scrolled .default-logo {
@@ -7834,8 +7829,9 @@ nav.scrolled .default-logo {
 nav.scrolled .scrolled-logo {
   opacity: 1;
   z-index: 2;
+  margin-top: 10px !important;
    width: 160px;
-  height: 260px !important;
+  height: 50px !important;
 }
 
 nav {
@@ -19057,10 +19053,11 @@ canvas {
   position: relative;
   will-change: transform;
 }
+
 .portfolio-modern .portfolio-box .portfolio-hover {
   opacity: 0;
-  left: 20px;
-  bottom: 20px;
+  left: 0px;
+  bottom: 5px;
   width: calc(100% - 40px);
   height: auto;
   top: inherit;
