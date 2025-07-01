@@ -37,198 +37,121 @@
     data-mobile-nav-style="full-screen-menu"
     data-mobile-nav-bg-color="#252840"
   >
-    <!-- start header -->
-    <header>
-      <!-- start navigation -->
-     <nav
-        class="navbar navbar-expand-lg header-transparent bg-transparent header-reverse glass-effect"
-        data-header-hover="light"
-      >
-        <div class="container-fluid">
-          <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="images/v7lancers-website-logo-1.png"
-                data-at2x="images/v7lancers-website-logo-1.png"
-                alt=""
-                class="default-logo"
-              />
-              <img
-                src="images/v7lancers-website-logo-1.png"
-                data-at2x="images/v7lancers-website-logo-1.png"
+  <!-- start header -->
+  <header>
+    <!-- start navigation -->
+    <nav id="navbar" class="d-flex justify-content-between">
+      <div class="v7-logo col-xxl-2 col-lg-2 me-lg-0 me-auto">
+        <a class="" href="index.html">
+          <img src="images/v7lancers-website-logo-1.png" alt="" class="logo default-logo w-60 " />
+          <img src="images/v7lancers-website-logo-1.png" alt="" class="logo alt-logo" />
+          <img src="images/v7lancers-logo-2@2x-1.png" alt="" class="logo scrolled-logo" />
+        </a>
+      </div>
+      <div class="wrapper">
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li><a href="#">Home</a></li>
+          <li>
+            <input type="checkbox" id="showDrop2" />
+            <a href="#" class="desktop-item">Our Products</a>
+            <label for="showDrop2" class="mobile-item">Our Products</label>
+            <ul class="drop-menu">
+              <li><a href="eezy-crm.html">EazyCRM</a></li>
+              <li><a href="eezy-shop.html">EazyShop</a></li>
+              <li><a href="eezy-invoice.html">EazyInvoice</a></li>
+              <li><a href="eezy-food.html">EazyFood</a></li>
+              <li><a href="eezy-store.html">EazyStore</a></li>
+              <li><a href="eezy-card.html">EazyCard</a></li>
+            </ul>
+          </li>
 
-                alt=""
-                class="alt-logo"
-              />
-              <img
-                src="images/v7lancers-website-logo-1.png"
-                data-at2x="images/v7lancers-website-logo-1.png"
-                alt=""
-                class="mobile-logo"
-              />
-            </a>
-          </div>
-          <div class="col-auto col-xxl-6 col-lg-8 menu-order position-static">
-            <button
-              class="navbar-toggler float-start"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-center"
-              id="navbarNav"
-            >
-              <ul class="navbar-nav">
-                <li
-                  itemscope="itemscope"
-                  id="menu-item-5667"
-                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-5667 active nav-item"
-                >
-                  <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li
-                  itemscope="itemscope"
-                  id="menu-item-5881"
-                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-5881 dropdown submenu active nav-item"
-                >
-                  <a href="ourproducts.html" class="nav-link"
-                    >Our Products<span class="arrow_carrot-right"></span>
-                  </a>
-                  <ul role="menu" class="dropdown-menu menu-depth-2nd">
-                    <li
-                      itemscope="itemscope"
-                      id="menu-item-8308"
-                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8308 nav-item"
-                    >
-                      <a href="https://eezycrmsolution.com/" class="nav-link">EezyCRM</a>
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      id="menu-item-5705"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5705 nav-item"
-                    >
-                      <a href="#" class="nav-link">EezyShop</a>
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      id="menu-item-5813"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5813 nav-item"
-                    >
-                      <a href="#" class="nav-link">EezyInvoice</a>
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      id="menu-item-7052"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7052 nav-item"
-                    >
-                      <a href="#" class="nav-link">EezyFood</a>
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      id="menu-item-6203"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6203 nav-item"
-                    >
-                      <a href="#" class="nav-link">EezyStore </a>
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      id="menu-item-5724"
-                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5724 nav-item"
-                    >
-                      <a href="#" class="nav-link">EezyCard </a>
-                    </li>
+          <li>
+            <a href="#" class="desktop-item">Our Services</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">Our Services</label>
+            <ul class="drop-menu">
+              <li><a href="#">Web Application Development</a></li>
+              <li><a href="#">Mobile Application Development</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Internet Of Things </a></li>
+              <li><a href="#">Chat Bots </a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-item">Our Solutions</a>
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile-item">Our Solutions</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <ul class="mega-links">
+                    <li class="megattitle"><span>EezyCRM</span></li>
+                    <li><a href="#">Project Management</a></li>
+                    <li><a href="#">Task Management</a></li>
+                    <li><a href="#">Sales Management</a></li>
+                    <li><a href="#">Customer Management</a></li>
+                    <li><a href="#">Lead Management</a></li>
+                    <li><a href="#">Workflow Management</a></li>
+                    <li><a href="#">Process Management</a></li>
+                    <li><a href="#">Office Automation</a></li>
+                    <li><a href="#">Income Expense Management</a></li>
+                    <li><a href="#">Event Management</a></li>
+                    <li><a href="#">Employee Management</a></li>
+                    <li><a href="#">Report Management</a></li>
                   </ul>
-                </li>
-                <li
-                  itemscope="itemscope"
-                  id="menu-item-5878"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5878 dropdown submenu nav-item"
-                >
-                  <a href="ourservices.html" class="nav-link"
-                    >Our Services <span class="arrow_carrot-right"></span>
-                  </a>
-                  <ul role="menu" class="dropdown-menu menu-depth-2nd">
-                    <li
-                      itemscope="itemscope"
-                      id="menu-item-5880"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5880 nav-item"
-                    >
-                      <a href="#" class="nav-link"
-                        >Web Application Development
-                      </a>
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      id="menu-item-5879"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5879 nav-item"
-                    >
-                      <a href="#" class="nav-link"
-                        >Mobile Application Development
-                      </a>
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      id="menu-item-5894"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5894 nav-item"
-                    >
-                      <a href="#" class="nav-link">Digital Marketing </a>
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      id="menu-item-5893"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5893 nav-item"
-                    >
-                      <a href="#" class="nav-link">Internet Of Things </a>
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      id="menu-item-5892"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5892 nav-item"
-                    >
-                      <a href="#" class="nav-link">Chat Bots </a>
-                    </li>
-                  </ul>
-                </li>
+                </div>
+                <div class="row">
+                  <ul class="mega-links">
+                    <li class="megattitle"><span>EezyShop</span></li>
 
-                <li class="nav-item">
-                  <a href="oursolutions.html" class="nav-link">Our Solutions</a>
-                </li>
-                <li class="nav-item">
-                  <a href="career.html" class="nav-link">Career</a>
-                </li>
-                <li class="nav-item">
-                  <a href="blog.html" class="nav-link">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a href="contact.html" class="nav-link">Get In Touch</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-auto col-xxl-3 col-lg-2 text-end d-none d-sm-flex">
-            <div class="header-icon">
-              <div class="header-button">
-                <a
-                  href="contact.html"
-                  class="btn btn-large btn-transparent-white-light btn-rounded text-transform-none border-1"
-                  >Sign Up<i class="fa-solid fa-arrow-right"></i
-                ></a>
+                    <li><a href="#">Ecommerce Store</a></li>
+                    <li><a href="#">Single Vendor Store</a></li>
+                    <li><a href="#">Multi Vendor Store</a></li>
+                    <li><a href="#">Virtual Shop</a></li>
+                    <li><a href="#">Online Store</a></li>
+                    <li><a href="#">Online Boutique</a></li>
+                    <li><a href="#">Online Electronics</a></li>
+                    <li><a href="#">Online Apparels</a></li>
+                    <li><a href="#">Online Showrooms</a></li>
+                    <li><a href="#">Delivery Management</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <ul class="mega-links">
+                    <li class="megattitle"><span>EesyFood</span></li>
+                    <li><a href="#">Food delivery</a></li>
+                    <li><a href="#">Grocery delivery </a></li>
+                    <li><a href="#">Vegetable delivery</a></li>
+                    <li><a href="#">Fruits delivery </a></li>
+                    <li><a href="#">Meat &amp; Fish delivery</a></li>
+                    <li><a href="#">Dairy Product delivery</a></li>
+                    <li><a href="#">Bouquet delivery</a></li>
+                    <li><a href="#">Bakery products delivery </a></li>
+                    <li><a href="#">Herb Product delivery </a></li>
+                    <li><a href="#">Fast-food delivery </a></li>
+                    <li><a href="#">Digital menu card </a></li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </nav>
-      <!-- end navigation -->
-    </header>
-    <!-- end header -->
+          </li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Get in Touch</a></li>
+          <li>
+            <a href="">Sign Up</a>
+          </li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+      </div>
+    </nav>
+
+    <!-- end navigation -->
+  </header>
+  <!-- end header -->
     <!-- start section -->
     <section
       class="full-screen ipad-top-space-margin sm-h-600px"
