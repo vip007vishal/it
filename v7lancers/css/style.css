@@ -7919,7 +7919,7 @@ margin-top: 15px;
 .nav-links li:hover .drop-menu,
 .nav-links li:hover .mega-box {
   transition: all 0.3s ease;
-  top: 70px;
+  top: 60px;
   opacity: 1;
   visibility: visible;
 }
