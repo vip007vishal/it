@@ -3543,7 +3543,7 @@ textarea:focus,
 ====================================== */
 /* Background color */
 .bg-base-color {
-  background-color: var(--base-color);
+  background-color: rgba(255, 255, 255, 0.064);
 }
 .bg-dark-gray,
 .bg-dark-gray:focus {
@@ -7791,10 +7791,7 @@ header.sticky .navbar.disable-fixed {
   width: 306px !important;
   height: 402px !important;
 }
-.Eezystoreclass{
-  width: 306px !important;
-  height: 402px !important;
-}
+
 
 
 .v7-logo {
@@ -19057,9 +19054,9 @@ canvas {
 
 .portfolio-modern .portfolio-box .portfolio-hover {
   opacity: 0;
-  left: 0px;
-  bottom: 5px;
-  width: calc(100% - 40px);
+  left:0px;
+  bottom: 3px;
+  width: calc(100% - 100px);
   height: auto;
   top: inherit;
   -webkit-transform: translateY(0) scale(1, 0);
@@ -19413,6 +19410,7 @@ canvas {
 .gallery-box .portfolio-image {
   position: relative;
   overflow: hidden;
+  width: 300px;
 }
 .portfolio-box:hover .move-top-bottom,
 .gallery-box:hover .move-top-bottom {
@@ -20640,3 +20638,196 @@ footer .footer-navbar .nav-item:last-child a {
   width: 1126px !important;
   height: 630px !important;
 } */
+/* .crmimg{
+  width: 376px !important;
+  height: 402px !important;
+} */
+ .imamgeplot{
+width: 226px !important;
+  height: 362px !important;
+   margin-top: -20px !important;
+  margin: 35px !important;
+    /* margin-right: -25px !important; */
+ }
+ .imamgeplot2{
+width: 286px !important;
+  height: 440px !important;
+  margin-top: -24px;
+  margin-right: -55px !important;
+ 
+ }
+ .count-section {
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.counter-box {
+   
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  width: 220px;
+  height: 220px;
+  border-radius: 1.5rem;
+  text-align: center;
+  padding: 2rem 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease-in-out;
+  transform: translateY(50px);
+  opacity: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #5b6b72);
+}
+
+.counter-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 40px rgba(0, 255, 255, 0.3);
+}
+
+.icon {
+  font-size: 2.8rem;
+  margin-bottom: 0.8rem;
+  color: #00f2ff;
+  animation: bounce 2.5s infinite;
+}
+
+.num {
+  display: block;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0.5rem 0;
+}
+
+.label {
+  font-size: 1rem;
+  color: #dcdcdc;
+  letter-spacing: 0.5px;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes fadeUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-in-up {
+  animation: fadeUp 1s forwards;
+}
+.delay-1 { animation-delay: 0.2s; }
+.delay-2 { animation-delay: 0.4s; }
+.delay-3 { animation-delay: 0.6s; }
+
+@media screen and (max-width: 600px) {
+  .counter-box {
+    width: 90%;
+  }
+}
+.ourport{
+color: darkslategrey !important;
+  font-weight: 1000 !important;
+  margin-bottom: 50px;
+
+}
+.techimg{
+  height:80px;
+  width: 80px;
+}
+.ecshop{
+  margin-top: 29px;
+  margin-left: 89px !important;
+  width: 200px !important;
+  height: 328px !important;
+  border-radius: 5px;
+}
+.ecinvoice{
+margin-top: 79px;
+  margin-left: 89px !important;
+  width: 200px !important;
+  height: 328px !important;
+  border-radius: 5px;
+  
+}
+.ecinvoice3{
+margin-top:40px;
+border-radius:5px ;
+}
+.eccard{
+  width: 306px !important;
+  height: 402px !important;
+}
+.ecstore{
+  	width: 225 px;
+    height: 338 px;
+}
+ .imamgeplot{
+width: 226px !important;
+  height: 362px !important;
+   margin-top: -20px !important;
+  margin: 35px !important;
+    /* margin-right: -25px !important; */
+ }
+ .imamgeplot2{
+width: 286px !important;
+  height: 440px !important;
+  margin-top: -24px;
+  margin-right: -55px !important;
+ 
+ }
+ .eezycardd2{
+  /* margin-top: 235px !important; */
+ }
+ /* .eezycard3{
+  -top:100px !important ;
+ } */
+  .Eezystoreclass1{
+    margin-top: 140px !important;
+  }
+  .eezycardd3{
+    width: 330px !important;
+    height: 400px !important;
+    /* margin-top: -10px !important; */
+  }
+  .eccardimg3{
+    margin-top: -60px !important;
+  }
+.ezshop{
+  height: 300px !important;
+  width: 300px !important;
+ 
+} 
+.ezinvoice{
+   height: 300px !important;
+  width: 300px !important;
+}
+.ezfood{
+   height: 300px !important;
+  width: 300px !important;
+}
+.ezstore{
+   height: 300px !important;
+  width: 300px !important;
+}
+.ezcard{
+   height: 300px !important;
+  width: 300px !important;
+}
