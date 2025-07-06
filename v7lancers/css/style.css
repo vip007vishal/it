@@ -20831,3 +20831,23 @@ width: 286px !important;
    height: 300px !important;
   width: 300px !important;
 }
+.careerbannerimg{
+  /* margin-top: 200px !important; */
+  height: 800px;
+  width: 100vw;
+}
+.carrerimgs{
+  height:350px !important;
+  width: 350px !important;
+  
+}
+.wordpressbanner{
+  height: 750px !important;
+  width: 1500px !important;
+  margin-bottom: 200px !important;
+}
+.contentwrite{
+  height: 850px !important;
+  width: 100vw !important;
+  
+}
