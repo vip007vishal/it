@@ -180,7 +180,7 @@
     <section
       class="cover-background full-screen ipad-top-space-margin py-0 md-h-750px sm-h-650px"
       style="
-        background-image: url('images/index-hero.png');
+        background-image: url('images/index-banner.webp');
       "
     >
       <div class="opacity-very-light bg-black"></div>
@@ -235,13 +235,13 @@
             >
               <span>
                 <span class="btn-double-text" data-text="Explore crafto"
-                  >Explore crafto</span
+                  >Explore </span
                 >
                 <span><i class="fa-brands fa-youtube"></i></span>
               </span>
             </a>
             <a
-              href="demo-it-business-contact.html"
+              href="contact.html"
               class="btn btn-extra-large btn-switch-text btn-transparent-white-light btn-rounded border-1 ls-0px mt-15px"
             >
               <span>
@@ -1154,7 +1154,7 @@
     <div>
       <h3 class="ourport">Our Portfolio</h3>
     </div>
-  <div class="counter-wrapper">
+  <div class=" counter-wrapper">
     <div class="counter-box fade-in-up">
       <i class="bi bi-people-fill icon pulse"></i>
       <span class="num" data-val="400">000</span>
@@ -1581,7 +1581,7 @@
                   <div class="portfolio-box">
                     <div class="portfolio-image border-radius-6px">
                       <img
-                        src="https://videos.openai.com/vg-assets/assets%2Ftask_01jz5tm8y1f55a644x2e9htz14%2F1751468740_img_0.webp?st=2025-07-02T13%3A19%3A55Z&se=2025-07-08T14%3A19%3A55Z&sks=b&skt=2025-07-02T13%3A19%3A55Z&ske=2025-07-08T14%3A19%3A55Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=3d249c53-07fa-4ba4-9b65-0bf8eb4ea46a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=w1hv9pzHzm0XwCt36xOqQT5RgPX%2FFtVRD8%2FlMg3ftsE%3D&az=oaivgprodscus"
+                        src="images/crm-food-3.webp"
                          class="ezfood"
                         alt=""
                       />
@@ -1781,7 +1781,7 @@
                 <a href="single-project-gallery.html">
                   <div class="portfolio-box">
                     <div class="   portfolio-image border-radius-6px">
-                                            <img  class="ezcard rounded" src="https://videos.openai.com/vg-assets/assets%2Ftask_01jz64qttpe6cr7dts9c1qa8mc%2F1751479313_img_1.webp?st=2025-07-04T10%3A32%3A01Z&se=2025-07-10T11%3A32%3A01Z&sks=b&skt=2025-07-04T10%3A32%3A01Z&ske=2025-07-10T11%3A32%3A01Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=3d249c53-07fa-4ba4-9b65-0bf8eb4ea46a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=RjFs%2FQJbiZcq15QUlgjfLaELIcUXqDueO2APRXOBLVc%3D&az=oaivgprodscus" alt="" />
+                                            <img  class="ezcard rounded" src="images/swagger.webp" alt="" />
 
                     </div>
                     <div class="portfolio-hover box-shadow-extra-large">
@@ -2096,8 +2096,11 @@
 
     <!-- end subscription popup -->
     <!-- start footer -->
-    <footer class="p-0 footer-light position-relative">
-      <div class=" mx-4 position-relative">
+    <footer
+      class="p-4 footer-light position-relative"
+      style="padding-bottom: 0px !important"
+    >
+      <div class="position-relative">
         <div class="row justify-content-center pt-5 sm-pt-40px">
           <!-- start footer column -->
           <div
@@ -2230,7 +2233,7 @@
                 />
                 <input type="hidden" name="redirect" value="" />
                 <button class="btn submit" aria-label="submit">
-                  <i class=" feather icon-feather-mail icon-small"></i>
+                  <i class="feather icon-feather-mail icon-small"></i>
                 </button>
                 <div
                   class="form-results border-radius-0px p-15px fs-16 lh-24 w-100 text-center position-absolute d-none"
@@ -2240,8 +2243,16 @@
           </div>
           <!-- end footer column -->
         </div>
+        <div class="footer">
+          <div class="cityscape"></div>
+          <div class="road"></div>
+          <div class="bike-container">
+            <!-- <div class="banner">V7LANCERS</div> -->
+            <img src="images/bike-moving-img.png" class="bike-svg" alt="Bike" />
+          </div>
+        </div>
 
-        <div class="row justify-content-center align-items-center pt-7">
+        <div class="row justify-content-center align-items-center">
           <div class="col-12">
             <div
               class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray"
@@ -2252,7 +2263,7 @@
             class="col-lg-5 pt-20px pb-20px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin fs-14"
           >
             <p>
-              &copy; 2025  Proudly Powered by
+              &copy; 2025 Proudly Powered by
               <a
                 href="https://v7lancers.com/"
                 target="_blank"
@@ -2319,6 +2330,53 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
+<script>
+    const counters = document.querySelectorAll('.num');
+    const boxes = document.querySelectorAll('.counter-box');
+
+    function animateCounters() {
+      counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        const speed = 200;
+        const increment = target / speed;
+
+        let count = 0;
+
+        function update() {
+          if (count < target) {
+            count += increment;
+            counter.innerText = Math.ceil(count);
+            requestAnimationFrame(update);
+          } else {
+            counter.innerText = target;
+          }
+        }
+
+        update();
+      });
+    }
+
+    function revealOnScroll() {
+      boxes.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (boxTop < windowHeight - 100) {
+          box.classList.add('active');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', () => {
+      revealOnScroll();
+    });
+
+    // Run both once on load
+    window.addEventListener('load', () => {
+      revealOnScroll();
+      animateCounters();
+    });
+  </script>
 
   </body>
 </html>
